@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow: clip;
+}
+#navbar {
+	background-color: #1b1b32;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 6rem;
+}
+#navbar > ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1.5rem;
+}
+#navbar > ul > li {
+	margin: 0 6rem;
+	font-size: 2rem;
+	list-style: none;
+	cursor: pointer;
+}
+#navbar > ul > li > a {
+	color: #f5f6f7;
+	text-decoration: none;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+}
+#welcome-section {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	padding-top: 50rem;
+	background-color: #0a0a23;
+	color: #ffffff;
+}
+.title {
+	font-size: 5rem;
+}
+.subtitle {
+	font-size: 2rem;
+}
+#welcome-subtitle {
+	width: 25%;
+	min-width: 20%;
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 3rem;
+}
+#projects {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	padding-top: 50rem;
+	background-color: #2a2a40;
+}
+#projects > article > figure > img {
+	width: 20rem;
+}
+#projects > article > figure > figcaption {
+	color: #ffffff;
+	margin: 2rem 0;
+	font-size: 2rem;
+}
+#projects > article > figure > button,
+.show-all {
+	width: 10rem;
+	height: 3rem;
+	background-color: #0a0a23;
+	border: none;
+}
+#projects > article > figure > button > a,
+.show-all > a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#contact {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	padding-top: 50rem;
+	background-color: #0a0a23;
+	color: #ffffff;
+}
+ul {
+	list-style: none;
+}
+#contact > ul {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: auto;
+	padding-top: 5rem;
+}
+#contact ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 3rem;
+}
+i {
+	font-size: 3rem;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 6rem;
+	background-color: #1b1b32;
+	color: #ffffff;
+	font-size: 2rem;
+	text-align: center;
+}
+.fa-copyright {
+	font-size: 2rem;
+}
+@media (max-width: 1015px) {
+	#contact > ul {
+		flex-direction: column;
+	}
+}
