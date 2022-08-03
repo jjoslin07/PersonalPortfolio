@@ -1,5 +1,5 @@
 # Personal Portfolio
-##freeCodeCamp Project for Responsive Web Design learning path. Check it out [here](https://jjoslin07.github.io/PersonalPortfolio/)
+## freeCodeCamp Project for Responsive Web Design learning path. Check it out [here](https://jjoslin07.github.io/PersonalPortfolio/)
 ### User Stories:
 
 1. Your portfolio should have a welcome section with an id of welcome-section
